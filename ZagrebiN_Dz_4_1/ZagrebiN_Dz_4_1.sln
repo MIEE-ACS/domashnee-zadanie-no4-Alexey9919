@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZagrebiN_Dz_4_1", "ZagrebiN_Dz_4_1\ZagrebiN_Dz_4_1.csproj", "{D9CE2926-0971-4DAA-93E6-9C22AA28FFAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZagrebiN_Dz_4_2", "ZagrebiN_Dz_4_2\ZagrebiN_Dz_4_2.csproj", "{11572B68-1357-42B6-83CF-565D0C8B79FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9CE2926-0971-4DAA-93E6-9C22AA28FFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CE2926-0971-4DAA-93E6-9C22AA28FFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CE2926-0971-4DAA-93E6-9C22AA28FFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CE2926-0971-4DAA-93E6-9C22AA28FFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11572B68-1357-42B6-83CF-565D0C8B79FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11572B68-1357-42B6-83CF-565D0C8B79FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11572B68-1357-42B6-83CF-565D0C8B79FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11572B68-1357-42B6-83CF-565D0C8B79FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {414B0CC3-DA79-40A0-B32F-81CB2394D755}
+	EndGlobalSection
+EndGlobal

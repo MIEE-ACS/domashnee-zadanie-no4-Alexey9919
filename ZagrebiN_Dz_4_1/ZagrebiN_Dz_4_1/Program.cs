@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-namespace ZAGREBIN_DZ4_1
+namespace Zagrebin_DZ4_1
 
 {
     class Program
@@ -17,7 +17,7 @@ namespace ZAGREBIN_DZ4_1
             for (int i = 0; i < n; i++)
             {
                 a[i] = r.Next(-25, 25);
-                Console.Write(a[i].ToString() + "  ");
+                Console.Write(a[i].ToString() + " ");
             }
             Console.WriteLine();
             int min = Math.Abs(a[0]);
@@ -26,7 +26,6 @@ namespace ZAGREBIN_DZ4_1
                     min = a[i];
             Console.WriteLine("Минимальный по модулю элемент: " + min.ToString());
 
-              
 
             //макисмум
             var MaxABS = a.Max(m => Math.Abs(m));
@@ -41,8 +40,9 @@ namespace ZAGREBIN_DZ4_1
             b = a.Where((item, num) => num % 2 != 0).Concat(a.Where((item, num) => num % 2 == 0)).ToArray<int>();
             Console.WriteLine("Преобразованный массив: ");
             for (int i = 0; i < n; i++)
-                Console.Write(b[i].ToString() + "  ");
+                Console.Write(b[i].ToString() + " ");
             Console.ReadKey();
+
         }
     }
 }
