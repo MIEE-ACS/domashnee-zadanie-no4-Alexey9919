@@ -26,6 +26,7 @@ namespace ZAGREBIN_DZ4_1
                     min = a[i];
             Console.WriteLine("Минимальный по модулю элемент: " + min.ToString());
 
+              
 
             //макисмум
             var MaxABS = a.Max(m => Math.Abs(m));
