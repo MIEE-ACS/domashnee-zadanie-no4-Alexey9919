@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-namespace Zagrebin_DZ4_1
+namespace ZAGREBIN_DZ4_1
 
 {
     class Program
